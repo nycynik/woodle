@@ -33,7 +33,7 @@ services:
   #################
   # Wordpress
   #################
-  
+
   mariadb_wp:
     image: 'docker.io/bitnami/mariadb:10.10-debian-11'
     # volumes:
@@ -64,8 +64,8 @@ volumes:
 #     driver: local
   moodle_data:
     driver: local
-#   moodledata_data:
-#     driver: local
+  moodledata_data:
+    driver: local
 #   mariadb_data:
 #     driver: local
   wordpress_data:
